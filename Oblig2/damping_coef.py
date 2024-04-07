@@ -116,8 +116,9 @@ def calc_force_coefficents(file_path):
         sum_AP2[k_index] = np.sum(AP2)
     return ff_22_sum, sum_AM2, sum_AP2
 
-file_list = ['box1_0.1.dat','box1_1.dat','box1_2.dat', 'box1_10.dat']
-aspect_ratio_strings = ['L:D 1:0.1', 'L:D 1:1', 'L:D 1:2', 'L:D 1:10']
+file_list = ['box10_1.dat','box2_1.dat','box1_1.dat', 'box1_10.dat']
+aspect_ratio_strings = ['L:D 10:1', 'L:D 2:1', 'L:D 1:1', 'L:D 1:10']
+
 data_dir_path = '/home/anna/annaCode/UiO/MEK4420/Oblig2_work/'
 
 
